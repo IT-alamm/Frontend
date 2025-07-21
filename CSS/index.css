@@ -1,0 +1,24 @@
+
+
+/* Types of selector 
+Simple selector --> 5
+Combinator sSelector --> 4
+Pseudo-class Selector --> 7-8
+Pseudo element Selector --> 5- 6
+Attribute Selector
+
+
+  */
+
+
+
+
+
+
+h3{
+    background-color: rgb(76, 155, 155);
+}
+
+p{
+    background-color: yellow !important;  // when we  give the high priority  otherwise inline css have high proirity
+}
