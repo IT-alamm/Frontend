@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+
+    <style>
+
+        /* Descendent : direct child as well as well as nested */
+        section div{
+            background-color: yellow;
+        }
+         /* child selector : targets only direct child */
+        section>div{
+            background-color: red;
+        }
+
+        /* General siblings :  target after section tags */
+
+        section~div{
+            background-color: green;
+        }
+
+        /* Adjacent Siblings : targets only just after closing tags  */
+        section+div{
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Combinator Selector</h1>
+    <!-- Descendent emptySpace
+     child    ">"
+     General siblings   "~"
+     Adjacent siblings  "+"
+      -->
+
+      <div> div 1 </div>
+        <section>
+            <div> div2</div>
+        <div> div3</div>
+        <article>
+            <div> div4</div>
+            <div>div 5</div>
+        </article>
+        <div>div 6</div>
+    </section>
+    <div>div 7</div>
+    <div>div 8</div>
+   
+
+
+</body>
+</html>
