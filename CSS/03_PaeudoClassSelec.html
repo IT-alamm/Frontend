@@ -26,25 +26,71 @@
             a:visited{
                 color: rgb(255, 0, 106);
             }
+
+            ul>li:first-child{
+                background-color: yellow;
+            }
+            ul>li:last-child{
+                background-color: blueviolet;
+            }
+            ul>li:nth-child(2){
+                background-color: rgb(28, 218, 101);
+            }
+
+
+            main>div:first-of-type{
+                background-color: grey;
+            }
+
+            
+            main>div:nth-of-type(2){
+                background-color: rgb(186, 30, 30);
+            }
+
+            main>section:nth-of-type(2){
+                background-color: rgb(108, 14, 143);
+            }
+
+
     </style>
 </head>
 <body>
-    <h1>learn PSeudp Class Selector</h1>
+    <h1>learn Pseudo Class Selector</h1>
     <!-- 
      :hover
      :link 
      :active
      :visited
-     :first-letter
-     :first-line
-     :before
-     :after
-     :selection
-     :marker
+     :first-child 
+     :last-child
+     :nth-child()
+     :first-of-type
+     :last-of-type
+     :nth-of-type()
+     
      -->
        
      <button id="btn1">Hover me</button>
      <a href="../HTML/day3.html">New link</a>
 
+   <h1>Day9</h1>
+   <ul>
+   <li>HTML</li>
+   <li>CSS</li>
+   <li>JS</li>
+   <li>REACT </li>
+   <li>TAILWIND</li>
+
+   <main>
+    <section>section1</section>
+    <aside>aside1</aside>
+    <section>section2</section>
+    <div>div1</div>
+    <aside>aside2</aside>
+    <section>section3</section>
+    <div>div3</div>
+    <section>section4</section>
+   </main>
+</ul>
 </body>
 </html>

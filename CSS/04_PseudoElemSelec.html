@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+           p::first-letter{
+            color: rgb(255, 0, 25);
+            font-size: xx-large;
+           }
+
+           p::first-line{
+            color: rgb(0, 13, 255);
+            font-size: xx-large;
+           }
+
+           p::selection{
+            background-color: chartreuse;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+        
+           }
+
+           h3::before{
+            content: "Java";
+            color: brown;
+           }
+           h3::after{
+            content: "(●'◡'●)";
+            color: blue;
+           }
+
+
+           ul>li::marker{
+            color: blueviolet;
+           }
+
+    </style>
+
+</head>
+<body>
+      <H1>Learn Pseudo Element selector</H1>
+      <!-- 
+      ::first-letter
+      ::first-line
+      ::before
+      ::after
+      ::selection
+      ::marker
+       -->
+
+
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur neque rerum sit fugiat. Commodi facilis distinctio aperiam, fugit optio, qui doloribus hic pariatur, assumenda cum nesciunt dolorum voluptatibus? Sint accusamus odio veritatis suscipit quisquam, quae dolore minima ea. Accusamus, earum obcaecati. Voluptas iure unde velit libero placeat aspernatur facilis dicta.</p>
+
+       <h3>Script </h3>
+
+
+       <ul>
+        <li>java</li>
+        <li>MERN</li>
+        <li>PYTHON</li>
+       </ul>
+</body>
+</html>
