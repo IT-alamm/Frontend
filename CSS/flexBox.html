@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #flex-container{
+            height: 80vh;
+            width: 100%;
+            background-color: rgb(218, 218, 245);
+            display: flex;
+            flex-direction: row;
+            /* justify content has center , flex-satrt, flex-end , space-between , space-evenly, space-around  in x-axis  */
+             justify-content: center;
+             /* align-items has center , flex-satrt, flex-end in y-axis */
+             align-items: center;
+             flex-wrap: wrap;
+
+        }
+        .flexitem{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            border: 5px solid white;
+            color: white;
+            font-size: 50px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1> learn Flex-Box</h1>
+    <main id="flex-container">
+        <div class="flexitem">1</div>
+        <div class="flexitem">2</div>
+        <div class="flexitem">3</div>
+        <div class="flexitem">4</div>
+        <div class="flexitem">5</div>
+        <div class="flexitem">6</div>
+        <div class="flexitem">7</div>
+        <div class="flexitem">8</div>
+        <div class="flexitem">9</div>
+        <div class="flexitem">10</div>
+        <div class="flexitem">11</div>
+        <div class="flexitem">12</div>
+    </main>
+</body>
+</html>
